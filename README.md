@@ -6,6 +6,7 @@
 - Lugar: UNIVERSIDAD DE CIENCIAS Y HUMANIDADES
 - Horario: MIERCOLES DE 6:00 pm a 10:30 pm
 - Inicio: 17-AGO-2016
+- Aula: 604-B
 - Página: http://gcoronelc.github.io/UCH_ING-SOFT-III_2016-1/
 
 
