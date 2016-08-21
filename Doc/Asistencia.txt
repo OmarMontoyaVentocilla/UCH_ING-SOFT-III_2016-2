@@ -1,0 +1,5 @@
+Tolerancia de Asistencia
+Evaluación Actitudinal
+- Asistencia: Hasta las 6:15 minutos
+- Tardanza: De 6:15 a 7:00 Tardanza
+- Falta: Después de las 7:00 
