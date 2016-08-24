@@ -1,0 +1,40 @@
+1.- Patrones Factory
+    
+
+2.- Principios SOLID
+    
+
+3.- Angular JS
+    
+
+4.- Patrón Inyección de Dependencias
+
+
+5.- Expresiones Lambda y Strem en Java 8
+    
+
+6.- Pruebas unitarias
+    
+
+7.- Creación de log
+    
+	
+8.- Seguridad con JAAS
+
+
+
+9.- Enterprise JavaBeans
+
+
+
+10.- Servicios REST con Java EE
+
+
+11.- websockets
+
+
+
+12.- Servlets Filter y Listener	
+
+
+
