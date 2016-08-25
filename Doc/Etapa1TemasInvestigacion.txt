@@ -20,7 +20,7 @@
     Mendoza LLanos, Julio Pamduro, Eli Tarazona
 	
 8.- Seguridad con JAAS
-    Nina Paima, Arroyo Montañez.
+    Nina Paima, Arroyo Montañez, Ayala Huamani.
 
 
 9.- Enterprise JavaBeans
