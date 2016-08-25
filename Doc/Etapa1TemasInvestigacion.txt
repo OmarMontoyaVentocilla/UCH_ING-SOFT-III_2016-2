@@ -1,26 +1,26 @@
 1.- Patrones Factory
-    
+    Uchuya Gallac, Caldas Moreno, Muñoz Rozales, Escajadillo Chavez.
 
 2.- Principios SOLID
-    
+    Huallpa Juarez, Manco Arias, Mendoza Diaz, LLave Herrera
 
 3.- Angular JS
-    
+    Aucapuma Muñoz, Farfan Huayta, Bedón Hurtado.
 
 4.- Patrón Inyección de Dependencias
-
+    
 
 5.- Expresiones Lambda y Strem en Java 8
     
 
 6.- Pruebas unitarias
-    
+    Perez Chipana, Prado Huerto, Garcia montes
 
 7.- Creación de log
-    
+    Mendoza LLanos, Julio Pamduro, Eli Tarazona
 	
 8.- Seguridad con JAAS
-
+    Nina Paima, Arroyo Montañez.
 
 
 9.- Enterprise JavaBeans
