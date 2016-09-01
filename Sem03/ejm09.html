@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<input type="button" id="boton1" value="Texto"><br/>
+<input type="button" id="boton2" value="HTML"><br/>
+<br>
+<div id="region"></div>
+</body>
+<script type="text/javascript">
+	$("#boton1").click(function(){
+		$("#region").text("<b>Hola todos</b>");
+	});
+	
+	$("#boton2").click(function(){
+		$("#region").html("<b>Hola todos</b>");
+	});
+	
+</script>
+</html>

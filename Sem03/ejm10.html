@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<img alt="Foto" id="foto" height="100">
+<input type="button" id="obtener" value="Tamaño">
+<input type="button" id="asignar" value="Ver imagen">
+<input type="button" id="borrar" value="Limpiar">
+</body>
+<script type="text/javascript">
+$("#obtener").click(obtener);
+$("#asignar").click(asignar);
+$("#borrar").click(borrar);
+function obtener () {
+x=$("#foto");
+alert(x.attr("height"));
+}
+function asignar () {
+x=$("#foto");
+x.attr("src","spiderman.jpg");
+}
+function borrar () {
+x=$("#foto");
+x.removeAttr("src");
+}
+</script>
+</html>

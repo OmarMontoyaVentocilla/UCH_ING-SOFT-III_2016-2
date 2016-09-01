@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+Curso:
+<a href="#" id="curso1">Matematica</a>
+<a href="#" id="curso2">Lenguaje</a>
+<ul id="matematica">
+<li>12</li>
+<li>15</li>
+<li>16</li>
+</ul>
+<ul id="lenguaje">
+<li>15</li>
+<li>13</li>
+<li>18</li>
+</ul>
+</body>
+<script type="text/javascript">
+x=$("#curso1").click(resaltar);
+function resaltar() {
+	x=$("#matematica li");
+	x.css("color","blue");
+}
+</script>
+</html>

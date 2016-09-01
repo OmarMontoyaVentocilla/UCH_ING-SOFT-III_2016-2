@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<h1 id="verde">Verde</h1>
+<h1 id="rojo">Rojo</h1>
+<div id='caja' style="width:100px; height:100px; background-color:#000000;"></div>
+</body>
+<script type="text/javascript">
+$("#verde").click(pintarVerde);
+$("#rojo").click(pintarRojo);
+function pintarVerde() {
+x=$("#caja");
+x.css("background-color","#00FF00");
+}
+function pintarRojo() {
+x=$("#caja");
+x.css("background-color","#FF0000");
+}
+</script>
+<html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<input type="button" id="boton" value="ver aprobados">
+<br>
+<span class="aprobado">Juan, nota 16</span><br>
+<span class="aprobado">Miguel, nota 14</span><br>
+<span class="desaprobado">Henry, nota 10</span><br>
+<span class="aprobado">Jose, nota 18</span><br>
+</body>
+<script type="text/javascript">
+x=$("#boton").click(resaltar);
+function resaltar() {
+x=$(".aprobado");
+x.css("background-color","#00FF00");
+}
+</script>
+</html>

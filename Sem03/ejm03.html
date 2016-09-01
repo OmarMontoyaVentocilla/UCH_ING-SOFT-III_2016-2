@@ -1,0 +1,18 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<div id='rojo' style="width:100px; height:100px; background:#FF0000"></div>
+<div id='azul' style="width:100px; height:100px; background:#0066CC"></div>
+</body>
+<script type="text/javascript">
+$("#rojo").click(function(){mensaje("Rojo")});
+
+$("#azul").click(function(){mensaje("Azul")});
+
+function mensaje ( color ) {
+	alert(color);
+}
+</script>
+</html>

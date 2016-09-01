@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+Haga click sobre los elementos que no son frutas:
+<ul>
+<li>Pera</li>
+<li>Plumon</li>
+<li>Naranja</li>
+<li>Lima</li>
+<li>Lapiz</li>
+<li>Borrador</li>
+</ul>
+<p>Reto: como hacer para que no elimine las frutas.</p>
+</body>
+<script>
+	$("li").click(ocultar);
+	function ocultar() {
+		x=$(this);
+		x.hide();
+	}
+</script>
+</html>
