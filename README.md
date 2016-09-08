@@ -1,4 +1,4 @@
-![INGENIERIA DE SOFTWARE III](https://raw.githubusercontent.com/gcoronelc/UCH_ING-SOFT-III_2016-2/master/UCH_ING-SOFT-III_2016-2.png)
+﻿![INGENIERIA DE SOFTWARE III](https://raw.githubusercontent.com/gcoronelc/UCH_ING-SOFT-III_2016-2/master/UCH_ING-SOFT-III_2016-2.png)
 
 
 # INGENIERIA DE SOFTWARE III
@@ -14,7 +14,7 @@
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
-- Correo: gcoronelc@gmail.com
+- Correo: ecoronel@uch.edu.pe
 
 
 # RECURSOS RECOMENDADOS
