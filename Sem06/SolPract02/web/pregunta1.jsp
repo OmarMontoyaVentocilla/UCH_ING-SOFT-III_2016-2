@@ -18,6 +18,7 @@
       <p>${requestScope.error}</p>
     </c:if>
     <c:if test="${requestScope.cuenta != null}">
+      <h2>RESULTADO</h2>
       <fieldset>
         <legend>Datos de la Cuenta</legend>
         <table>
@@ -43,5 +44,29 @@
         </table>
       </fieldset>
     </c:if>
+
+    <c:if test="${requestScope.movimientos != null}">
+      <table border="1">
+        <tr>
+          <td>NRO.MOV.</td>
+          <td>FEHCA</td>
+          <td>TIPO</td>
+          <td>ACCION</td>
+          <td>IMPORTE</td>
+        </tr>
+        
+        <c:forEach items="${requestScope.movimientos}" var="r">
+          <tr>
+            <td>${r.movinumero}</td>
+            <td>${r.movifecha}</td>
+            <td>${r.tiponombre}</td>
+            <td>${r.tipoaccion}</td>
+            <td>${r.moviimporte}</td>
+          </tr>
+        </c:forEach>
+
+      </table>
+    </c:if>
+
   </body>
 </html>

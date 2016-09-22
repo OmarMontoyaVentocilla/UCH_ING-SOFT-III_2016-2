@@ -1,3 +1,5 @@
+package pe.egcc.practica2.controller;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
@@ -42,9 +44,9 @@ public class PracticaController extends HttpServlet {
       // Proceso
       CuentaService service = new CuentaService();
       Map<String,Object> regCuenta = service.getCuentaPract2(cuenta);
-      //List<Map<String,Object>> movimientos = service.getMovimientosPract2(cuenta);
+      List<Map<String,Object>> movimientos = service.getMovimientosPract2(cuenta);
       request.setAttribute("cuenta", regCuenta);
-      //request.setAttribute("movimientos", movimientos);
+      request.setAttribute("movimientos", movimientos);
     } catch (Exception e) {
       request.setAttribute("error", e.getMessage());
     }
