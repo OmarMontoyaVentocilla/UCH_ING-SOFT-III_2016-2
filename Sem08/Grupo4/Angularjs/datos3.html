@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="datosApp">
+<head>
+<meta charset="utf-8">
+	<title>Importar datos desde MySQL</title>
+	<script type="text/javascript" src="angular.min.js"></script>
+  <link href='css/table.css' rel='stylesheet'>
+</head>
+<body>
+
+<div ng-controller="controladorDatos"> 
+
+  <table>
+  	 <thead>
+  	 	<tr>
+  	 	<th>CODIGO</th>
+  	 	<th>COD. EMPLEADO</th>	
+  	 	<th>FECHA</th>	
+  	 	<th>COD. CLIENTE</th>	
+  	 	<th>ESTADO</th>	
+  	 		  
+  	 	</tr>
+  	 </thead>
+  	 <tr ng-repeat="boleta in equipo">
+  	 	<td>{{boleta.COD_BOL}}</td><td>{{boleta.COD_EMP}}</td><td>{{boleta.FECHA_BOL }}</td>
+      <td>{{boleta.COD_CLI}}</td><td>{{boleta.ESTADO_BOL}}</td>
+  	 </tr>
+  </table>
+
+</div>
+
+<script type="text/javascript">
+	var misDatos = angular.module('datosApp', []);
+	misDatos.controller('controladorDatos',function ($scope,$http) {
+
+		$scope.importa = function(){
+
+			$http.get('php/listar.php').success(function(datos){
+
+				$scope.equipo = datos;
+			});
+		}
+                 $scope.importa();
+		
+	});
+ 
+</script>
+</body>
+</html>
