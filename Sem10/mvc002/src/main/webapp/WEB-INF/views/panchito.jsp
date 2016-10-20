@@ -13,7 +13,7 @@
       <input type="text" name="cant" /><br/>
       <input type="submit" value="Procesar" />      
   </form>
-  <c:if test="${suma != null}">
+  <c:if test="${venta != null}">
     <h2>RECULTADO</h2>
     <p>Precio: ${venta.precio}</p>
     <p>Cantidad: ${venta.cant}</p>
